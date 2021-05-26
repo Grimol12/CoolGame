@@ -82,6 +82,7 @@
         this.drawActorMp(actor, x, bottom - lineHeight * 2, width);
         this.drawActorIcons(actor, x, bottom - lineHeight * 1, width);
     };
+};
 
     var _Window_MenuActor_initialize = Window_MenuActor.prototype.initialize;
     Window_MenuActor.prototype.initialize = function() {
